@@ -5,13 +5,33 @@
     <title>موقــعي</title>
 
     <!-- 👇هنا style قم بإضافة وسم   -->
+    <style>
+   h1{
+       color: darkorange;
+       text-align: center;
+    }
     
+
+    .nintendo{
+background-color: red;
+}
+
+.ps{
+background-color: royalblue;
+}
+
+.pc{
+background-color: seagreen;
+}
+
+    
+    </style>
 
 </head>
 <body>
     <!-- اكتب اسمك بعد مرحباً، -->
     <!-- headالى ال cssثم غير لون الخط عن طريق اضافة كود   -->
-    <h1>مرحبا، انا اسمي</h1>
+    <h1> مرحبا، انا اسمي فاطمه</h1>
 
 
     <!-- styles.css قم بإنشاء ملف جديد وقم بتسميته  -->
@@ -19,17 +39,17 @@
 
 
     <!-- قم بتغيير طريقة عرض الصور بحيث تظهر الصور تحت بعض -->
-    <img src="./img/ps4.png" alt="الكويت تبرمج">
-    <img src="./img/Nintendo.png" alt="الكويت تبرمج">
-    <img src="./img/pc.png" alt="الكويت تبرمج">
+   <div><img src="./img/ps4.png" alt="الكويت تبرمج"></div>
+    <div><img src="./img/Nintendo.png" alt="الكويت تبرمج"></div>
+    <div><img src="./img/pc.png" alt="الكويت تبرمج"></div>
 
      <!--  بعد ذلك قم باخفاء النقاط من القائمه  -->
      <div>
-        <h3>منصات الالعاب المتوفره</h3>
-        <ul>
-            <li>PS4</li>
-            <li>nintendo switch</li>
-            <li>PC</li>
+        <h3 style="list-style-type: none; display: inline-block;">منصات الالعاب المتوفره</h3>
+        <ul style="list-style-type: none; display: inline-block;">
+            <li style="list-style-type: none; display: inline-block;">PS4</li>
+            <li style="list-style-type: none; display: inline-block;">nintendo switch</li>
+            <li style="list-style-type: none; display: inline-block;">PC</li>
         </ul><br><br>
     </div>  
 
@@ -39,7 +59,7 @@
 <!-- Nintendo: red   -->
 <!-- PC:       green -->
 <!-- تلميح: يجب عليك اضافة كلاس لكل اسم -->
-    <table>
+    <table border="1" style="background-color: darksalmon;">
         <tr>
             <th>الاسم</th>
             <th>العمر</th>
@@ -47,37 +67,37 @@
             <th>المنصه</th>
         </tr>
         <tr>
-            <td>احمد</td>
+            <td class="ps">احمد</td>
             <td>16</td>
             <td>call of duty</td>
             <td>PS4</td>
         </tr>
         <tr>
-            <td>ساره</td>
+            <td class="nintendo">ساره</td>
             <td>15</td>
             <td>mario party</td>
             <td>nintendo switch</td>
         </tr>
         <tr>
-            <td>علي</td>
+            <td class="pc">علي</td>
             <td>15</td>
             <td>league of legends</td>
             <td>PC</td>
         </tr>
         <tr>
-            <td>عبدالله</td>
+            <td class="ps">عبدالله</td>
             <td>14</td>
             <td>fifa</td>
             <td>PS4</td>
         </tr>
         <tr>
-            <td>دانه</td>
+            <td class="nintendo">دانه</td>
             <td>22</td>
             <td>super smash bros</td>
             <td>nintendo switch</td>
         </tr>
         <tr>
-            <td>ليلى</td>
+            <td class="pc">ليلى</td>
             <td>17</td>
             <td>minecraft</td>
             <td>PC</td>

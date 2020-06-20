@@ -1,0 +1,23 @@
+ul{
+list-style-type: none;
+}
+
+/* .nintendo{
+background-color: red;
+}
+
+.ps{
+background-color: royalblue;
+}
+
+.pc{
+background-color: seagreen;
+} */
+
+
+img{display: block;}
+
+ul{list-style-type: none;
+display: inline-block;
+}
+    
